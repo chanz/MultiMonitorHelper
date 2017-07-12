@@ -12,7 +12,7 @@ Put the EXE file into your autostart folder or start it manually.
 Open the GUI by double clicking the tray icon.
 
 # Screenshot
-![Alt text](/screenshot_gui.png?raw=true "Optional Title")
+![GUI Screenshot of MultiMonitorHelper](/screenshot_gui.png?raw=true "Optional Title")
 
 # Feature requests
 You thought of a feature to improve this tool? Then let my know by creating a new issue on this github repository.
