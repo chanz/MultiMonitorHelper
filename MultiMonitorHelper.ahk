@@ -643,7 +643,8 @@ ClearMinimizedWindows() {
 }
 
 TrapMouseOnCurrentMonitor(Activate=True) {
-	if( Activate == False) {
+	if (Activate == False)
+	{
 
 		API_ClipCursor(False)
 		return
@@ -664,7 +665,7 @@ IsPrimaryMonitorActive() {
     if(IsCoordinateInBounds(iMouseX, iMouseY, MonitorLeft, MonitorTop, MonitorRight, MonitorBottom)) {
     	return true
     }
-    return false
+	return false
 }
 
 GetActiveMonitorBounds(ByRef MonitorLeft, ByRef MonitorTop, ByRef MonitorRight, ByRef MonitorBottom) {
@@ -676,7 +677,8 @@ GetActiveMonitorBounds(ByRef MonitorLeft, ByRef MonitorTop, ByRef MonitorRight, 
 	{
 	    SysGet, Monitor, Monitor, %A_Index%
 
-	    if(IsCoordinateInBounds(iMouseX, iMouseY, MonitorLeft, MonitorTop, MonitorRight, MonitorBottom)) {
+	    if(IsCoordinateInBounds(iMouseX, iMouseY, MonitorLeft, MonitorTop, MonitorRight, MonitorBottom))
+	    {
 	    	break
 	    }
 	}
